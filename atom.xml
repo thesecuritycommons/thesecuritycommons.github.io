@@ -4,7 +4,7 @@
   <title><![CDATA[The Security Commons]]></title>
   <link href="http://thesecuritycommons.github.io/atom.xml" rel="self"/>
   <link href="http://thesecuritycommons.github.io/"/>
-  <updated>2014-09-05T15:17:47-07:00</updated>
+  <updated>2014-09-05T15:36:45-07:00</updated>
   <id>http://thesecuritycommons.github.io/</id>
   <author>
     <name><![CDATA[Chris Daley]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[What Is Open Source Security?]]></title>
+    <title type="html"><![CDATA[What is Open Source Security?]]></title>
     <link href="http://thesecuritycommons.github.io/blog/2014/09/05/what-is-open-source-security/"/>
     <updated>2014-09-05T15:16:42-07:00</updated>
     <id>http://thesecuritycommons.github.io/blog/2014/09/05/what-is-open-source-security</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>This is my newest post on the subject</p>
 ]]></content>
   </entry>
   
