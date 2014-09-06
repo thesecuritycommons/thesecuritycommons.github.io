@@ -4,7 +4,7 @@
   <title><![CDATA[The Security Commons]]></title>
   <link href="http://thesecuritycommons.github.io/atom.xml" rel="self"/>
   <link href="http://thesecuritycommons.github.io/"/>
-  <updated>2014-09-06T13:34:34-07:00</updated>
+  <updated>2014-09-06T13:37:05-07:00</updated>
   <id>http://thesecuritycommons.github.io/</id>
   <author>
     <name><![CDATA[Chris Daley]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[What is Open Source Security?]]></title>
-    <link href="http://thesecuritycommons.github.io/blog/2014/09/05/what-is-open-source-security/"/>
+    <title type="html"><![CDATA[What is Open Source Physical Security?]]></title>
+    <link href="http://thesecuritycommons.github.io/blog/2014/09/05/what-is-open-source-physical-security/"/>
     <updated>2014-09-05T15:16:42-07:00</updated>
-    <id>http://thesecuritycommons.github.io/blog/2014/09/05/what-is-open-source-security</id>
-    <content type="html"><![CDATA[<p>This is my newest post on the subject</p>
+    <id>http://thesecuritycommons.github.io/blog/2014/09/05/what-is-open-source-physical-security</id>
+    <content type="html"><![CDATA[<p>The physical security of our people in the field is too important for the knowledge, tools and experience we have to be kept under lock and key.</p>
 ]]></content>
   </entry>
   

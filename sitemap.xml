@@ -2,9 +2,9 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
-            http://thesecuritycommons.github.io/blog/2014/09/05/what-is-open-source-security/
+            http://thesecuritycommons.github.io/blog/2014/09/05/what-is-open-source-physical-security/
         </loc>
-        <lastmod>2014-09-06T13:34:26-07:00</lastmod>
+        <lastmod>2014-09-06T13:36:30-07:00</lastmod>
     </url>
     <url>
         <loc>http://thesecuritycommons.github.io/robots.txt</loc>
@@ -12,14 +12,14 @@
     </url>
     <url>
         <loc>http://thesecuritycommons.github.io/</loc>
-        <lastmod>2014-09-06T13:34:26-07:00</lastmod>
+        <lastmod>2014-09-06T13:36:30-07:00</lastmod>
     </url>
     <url>
         <loc>http://thesecuritycommons.github.io/blog/</loc>
-        <lastmod>2014-09-06T13:34:26-07:00</lastmod>
+        <lastmod>2014-09-06T13:36:30-07:00</lastmod>
     </url>
     <url>
         <loc>http://thesecuritycommons.github.io/blog/archives/</loc>
-        <lastmod>2014-09-06T13:34:26-07:00</lastmod>
+        <lastmod>2014-09-06T13:36:30-07:00</lastmod>
     </url>
 </urlset>
