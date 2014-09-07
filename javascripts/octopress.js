@@ -7,6 +7,38 @@ function renderDeliciousLinks(items) {
   $('#delicious').html(output);
 }
 
+
+function getFlickrAlbum() {
+	var flickrSlideshow = jQuery('div.hero');
+	var flickrAlbum = jQuery(flickrSlideshow).data('flickr-set');
+	var flickrUserId = jQuery(flickrSlideshow).data('flickr-id');
+
+	var flickrUrl = "https://www.flickr.com/services/feeds/photoset.gne?set="+flickrAlbum+"&nsid="+flickrUserId+"&lang=en-us&format=json&jsoncallback=?";
+
+	var flickrPic = 0;
+
+	var flickrPicTitle = jQuery('div.credit p'); 
+
+    $.getJSON(flickrUrl, function(data){
+		
+		setInterval(function() {
+			flickrSlideshow.fadeOut("1000", function () {
+				item = data.items[flickrPic];
+				flickrSlideshow.css('background-image', 'url('+ item.media.m.replace('m.jpg', 'b.jpg') + ')').fadeIn(1000);
+				flickrPicTitle.html("<a href='" + item.link + "'>" + item.title + " by " + item.author + "</a>");
+			});
+			if (flickrPic < data.items.length-2) {
+				flickrPic++;
+			} else {
+				flickrPic = 0;
+			}
+		}, 3000);
+
+		
+    });
+	
+}
+
 jQuery(function(){
   var gravatarImage = jQuery('img.gravatar'),
       email         = jQuery(gravatarImage).data('gravatar');
@@ -14,11 +46,6 @@ jQuery(function(){
     jQuery(gravatarImage).attr({src: "http://www.gravatar.com/avatar/" + CryptoJS.MD5(email) + "?s=250"}).removeAttr('data-gravatar');
   };
 
-	/*
-	 $('.hero').twbsFlickrCarousel(
-		{ 
-		flickrApiKey: 'b2931f90f443105ba4dd089f40aa2baf', 
-		paginationSelector: '#flickr-pagination'}
-		);
-	*/
+	getFlickrAlbum();
+
 });
