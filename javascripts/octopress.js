@@ -15,7 +15,7 @@ jQuery(function(){
   };
 
 	$('.gravatar').twbsFlickrCarousel(
-		{, 
+		{ 
 		flickrApiKey: '<insert your key here>', 
 		paginationSelector: '#flickr-pagination'}
 		);
