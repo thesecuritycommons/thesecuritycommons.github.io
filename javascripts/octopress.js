@@ -25,7 +25,7 @@ function getFlickrAlbum() {
 			flickrSlideshow.fadeOut("1000", function () {
 				item = data.items[flickrPic];
 				flickrSlideshow.css('background-image', 'url('+ item.media.m.replace('m.jpg', 'b.jpg') + ')').fadeIn(1000);
-				flickrPicTitle.html("<a href='" + item.link + "'>" + item.title + " by " + item.author + "</a>");
+				flickrPicTitle.html("<a href='" + item.link + "' target='_new'>" + item.title +"</a>");
 			});
 			if (flickrPic < data.items.length-2) {
 				flickrPic++;
