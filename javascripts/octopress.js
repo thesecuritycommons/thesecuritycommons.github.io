@@ -16,7 +16,7 @@ jQuery(function(){
 
 	$('.hero').twbsFlickrCarousel(
 		{ 
-		flickrApiKey: '<insert your key here>', 
+		flickrApiKey: 'b2931f90f443105ba4dd089f40aa2baf', 
 		paginationSelector: '#flickr-pagination'}
 		);
 
