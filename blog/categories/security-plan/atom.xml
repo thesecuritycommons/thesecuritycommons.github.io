@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[The Security Commons]]></title>
-  <link href="http://www.thesecuritycommons.org/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Security Plan | The Security Commons]]></title>
+  <link href="http://www.thesecuritycommons.org/blog/categories/security-plan/atom.xml" rel="self"/>
   <link href="http://www.thesecuritycommons.org/"/>
   <updated>2014-09-07T11:11:28-07:00</updated>
   <id>http://www.thesecuritycommons.org/</id>
@@ -31,15 +31,6 @@
 <li>Accessible</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[What is Open Source Physical Security?]]></title>
-    <link href="http://www.thesecuritycommons.org/blog/2014/09/05/what-is-open-source-physical-security/"/>
-    <updated>2014-09-05T15:16:42-07:00</updated>
-    <id>http://www.thesecuritycommons.org/blog/2014/09/05/what-is-open-source-physical-security</id>
-    <content type="html"><![CDATA[<p>The physical security of our people in the field is too important for the knowledge, tools and experience we have to be kept under lock and key.</p>
 ]]></content>
   </entry>
   
