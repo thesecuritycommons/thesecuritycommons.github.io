@@ -32,7 +32,7 @@ function getFlickrAlbum() {
 			} else {
 				flickrPic = 0;
 			}
-		}, 3000);
+		}, 30000);
 
 		
     });
