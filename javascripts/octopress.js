@@ -7,11 +7,21 @@ function renderDeliciousLinks(items) {
   $('#delicious').html(output);
 }
 
+function isMobileDevice() {
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		return true;
+	}
+	return false;
+}
+
 function changeFlickrPic(flickrSlideshow, item) {
 	var flickrPicTitle = jQuery('div.credit p'); 
+	var flickrPic = item.media.m;
+
+	if(!isMobileDevice()) flickrPic = item.media.m.replace('m.jpg', 'b.jpg');
 
 	flickrSlideshow.fadeOut("1000", function () {
-		flickrSlideshow.css('background-image', 'url('+ item.media.m.replace('m.jpg', 'b.jpg') + ')').fadeIn(1000);
+		flickrSlideshow.css('background-image', 'url('+ flickrPic + ')').fadeIn(1000);
 		flickrPicTitle.html("<a href='" + item.link + "' target='_new'>" + item.title +"</a>");
 	});
 }
@@ -29,7 +39,11 @@ function getFlickrAlbum() {
 		
 		$.each(data.items,function(){
 			var image = new Image();
-			image.src=this.media.m.replace('m.jpg', 'b.jpg')
+			if(isMobileDevice()) {
+				image.src=this.media.m.replace('m.jpg', 'b.jpg')
+			} else {
+				image.src=this.media.m;
+			}
 			if (i==flickrPic) {
 				image.onload = function() {
 					changeFlickrPic(flickrSlideshow, data.items[flickrPic]);
@@ -38,13 +52,10 @@ function getFlickrAlbum() {
 			i++;
 		});
 		
-		//changeFlickrPic(flickrSlideshow, data.items[flickrPic]);
-
 		setInterval(function() {
 			flickrPic = Math.floor(Math.random() * data.items.length); 
 			changeFlickrPic(flickrSlideshow, data.items[flickrPic]);
 		}, 30000);
-
 		
     });
 	
