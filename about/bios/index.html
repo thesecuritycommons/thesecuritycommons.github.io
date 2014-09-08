@@ -9,10 +9,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>bios - The Security Commons</title>
+    <title>Biographies - The Security Commons</title>
     <meta name="author" content="Chris Daley">
     
-    <meta name="description" content=" Bios ">
+    <meta name="description" content=" Biographies ">
     
     <meta name="viewport" content="width=device-width">
     <link rel="canonical" href="http://www.thesecuritycommons.org/about/bios">
@@ -40,6 +40,7 @@
 <ul class="menu pull-right">
   <li><a href="/">Home</a></li>
   <li><a href="/blog/">Blog</a></li>
+  <li><a href="/tools/">Tools</a></li>
   <li><a href="/about/">About Us</a></li>
 </ul>
 
@@ -63,7 +64,7 @@
   
   <header>
     <h1 class="title indent">
-      Bios
+      Biographies
     </h1>
   </header>
   <hr class="divider">
@@ -121,12 +122,6 @@
   <h1 class="title delta">
     GitHub Repos
     
-    <small class="pull-right">
-      <a class="btn" href="//github.com/thesecuritycommons" title="@thesecuritycommons on GitHub" target="_blank">
-        <i class="icon-external-link"></i>
-      </a>
-    </small>
-    
   </h1>
   <ul id="gh_repos" class="divided">
     <li class="loading">
@@ -173,26 +168,6 @@
 
 
 
-
-<script>
-  $(document).ready(function(){
-    if (!window.jXHR){
-      var jxhr = document.createElement('script');
-      jxhr.type = 'text/javascript';
-      jxhr.src = '/javascripts/libs/jXHR.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(jxhr, s);
-    }
-
-    github.showRepos({
-      user: 'thesecuritycommons',
-      count: 0,
-      skip_forks: true,
-      target: '#gh_repos'
-    });
-  });
-</script>
-<script src="/javascripts/github.js"></script>
 
 
 

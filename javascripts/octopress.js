@@ -22,6 +22,8 @@ function getFlickrAlbum() {
     $.getJSON(flickrUrl, function(data){
 		
 		$.each(data.items,function(){(new Image).src=this.media.m.replace('m.jpg', 'b.jpg')});
+
+		flickrPic = Math.floor(Math.random() * data.items.length); 
 		
 		setInterval(function() {
 			flickrSlideshow.fadeOut("1000", function () {
