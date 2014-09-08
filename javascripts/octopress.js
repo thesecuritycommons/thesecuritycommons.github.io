@@ -40,9 +40,9 @@ function getFlickrAlbum() {
 		$.each(data.items,function(){
 			var image = new Image();
 			if(isMobileDevice()) {
-				image.src=this.media.m.replace('m.jpg', 'b.jpg')
-			} else {
 				image.src=this.media.m;
+			} else {
+				image.src=this.media.m.replace('m.jpg', 'b.jpg');
 			}
 			if (i==flickrPic) {
 				image.onload = function() {
