@@ -4,7 +4,7 @@
   <title><![CDATA[The Security Commons]]></title>
   <link href="http://www.thesecuritycommons.org/atom.xml" rel="self"/>
   <link href="http://www.thesecuritycommons.org/"/>
-  <updated>2014-09-08T16:49:33-07:00</updated>
+  <updated>2014-09-09T10:27:14-07:00</updated>
   <id>http://www.thesecuritycommons.org/</id>
   <author>
     <name><![CDATA[Chris Daley]]></name>
@@ -39,7 +39,13 @@
     <link href="http://www.thesecuritycommons.org/blog/2014/09/05/what-is-open-source-physical-security/"/>
     <updated>2014-09-05T15:16:42-07:00</updated>
     <id>http://www.thesecuritycommons.org/blog/2014/09/05/what-is-open-source-physical-security</id>
-    <content type="html"><![CDATA[<p>The physical security of our people in the field is too important for the knowledge, tools and experience we have to be kept under lock and key.</p>
+    <content type="html"><![CDATA[<p>The physical security of our people in the field is too important for the knowledge, tools and experience we have to be kept under the lock and key of restrictive licensing, whether intentional or not.</p>
+
+<p>The hoarding of knowledge has a direct impact on the safety of our people.</p>
+
+<blockquote><p>The limited sharing of practice may have contributed to the narrow range of alternatives and lack of innovation within the community. It has brought the issue of road security to an intellectual dead end, with humanitarian professionals feeling that, as one put it, ‘The only way to deal with the risk is not to move.’</p>
+
+<p><a href="http://www.humanitarianoutcomes.org/sites/default/files/Aid%20Worker%20Security%20Report%202014.pdf">Aid Worker Security Report 2014</a></p></blockquote>
 ]]></content>
   </entry>
   
