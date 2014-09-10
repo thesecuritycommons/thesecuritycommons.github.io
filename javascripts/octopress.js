@@ -68,6 +68,6 @@ jQuery(function(){
     jQuery(gravatarImage).attr({src: "http://www.gravatar.com/avatar/" + CryptoJS.MD5(email) + "?s=250"}).removeAttr('data-gravatar');
   };
 
-	getFlickrAlbum();
+	if(jQuery('div.hero')) getFlickrAlbum();
 
 });
