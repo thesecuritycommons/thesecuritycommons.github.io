@@ -13,12 +13,22 @@
         <lastmod>2014-09-10T12:21:50-07:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://www.thesecuritycommons.org/blog/2014/09/10/towards-a-quantative-methodology-of-assessing-security-risk/
+        </loc>
+        <lastmod>2014-09-10T15:55:10-07:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.thesecuritycommons.org/robots.txt</loc>
         <lastmod>2014-09-10T12:21:50-07:00</lastmod>
     </url>
     <url>
+        <loc>http://www.thesecuritycommons.org/resources/links/</loc>
+        <lastmod>2014-09-10T15:47:21-07:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.thesecuritycommons.org/</loc>
-        <lastmod>2014-09-10T12:21:50-07:00</lastmod>
+        <lastmod>2014-09-10T15:55:10-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.thesecuritycommons.org/about/bios/</loc>
@@ -30,10 +40,10 @@
     </url>
     <url>
         <loc>http://www.thesecuritycommons.org/blog/</loc>
-        <lastmod>2014-09-10T12:21:50-07:00</lastmod>
+        <lastmod>2014-09-10T15:55:10-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.thesecuritycommons.org/blog/archives/</loc>
-        <lastmod>2014-09-10T12:21:50-07:00</lastmod>
+        <lastmod>2014-09-10T15:55:10-07:00</lastmod>
     </url>
 </urlset>
